@@ -7,14 +7,6 @@ import {getFirestore,collection,getDocs,addDoc} from "firebase/firestore";
 import {fetchHistoryData } from "./my-modules/fetch-history-data.js";
 import {submitData} from "./my-modules/submit-data.js";
 // Your web app's Firebase configuration
-const _firebaseConfig = {
-  apiKey: "AIzaSyCuScBmNOC4_PVLV3QNw5B_PDkwz2jjqg0",
-  authDomain: "daily-report-f8e54.firebaseapp.com",
-  projectId: "daily-report-f8e54",
-  storageBucket: "daily-report-f8e54.firebasestorage.app",
-  messagingSenderId: "439757053623",
-  appId: "1:439757053623:web:cb4a90391695326d23f732"
-};
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
   authDomain: import.meta.env.VITE_AUTH_DOMAIN,
